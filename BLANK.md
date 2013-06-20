@@ -1,10 +1,3 @@
-<style>
-  li 
-	{ 
-	    list-style-image: url('http://bit.ly/qunMkL'); 
-	    list-style-position: inside;
-	}
-</style>
 # ROUGHLY CHRONOLOGICAL GAME DEVELOPMENT BUCKET LIST
 - Be inspired  
 - Have game idea  
