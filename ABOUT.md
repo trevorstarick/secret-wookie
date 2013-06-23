@@ -1,4 +1,4 @@
-#SECRET-WOOKIE v0.0.5
+#SECRET-WOOKIE
 The game takes place on a planet in a space station, hundreds of years abandoned. The player crash lands on the planet and takes refuge in an abandoned wing of the upper levels of the space station. 
 
 ##Description and inspiration
@@ -13,27 +13,18 @@ Space travel will allow players to explore new planets to get new resources or t
 ##Character design
 The players character is dressed in a space suit coloured either Red, Orange, Yellow, Green, Blue, Purple or Pink. Colours would be similar to those of the knights in Castle Crashers. Suits can be upgraded to include jetpacks, night vision, damage reduction and health regeneration. Further on players can also customize parts of their suits to add symbols or different patterns but these would be more cosmetic designs for multiplayer.
 
-##Enemies [To-Do]
+##Weapons
+The player starts of with a basic phaser and laser axe/saw. The player can then customize/build their weapons similar to how players can in the Dead Space series.
 
-##NPCs [To-Do]
+##Enemies
+The main enemies in the game would be based on the environment. For example if the planet is a forest-type planet the enemies would be 'wookie' like enemies. The same thing if the planet was an ice, desert or any other type of planet. Inside the space station there would be 'zombiefied' or hybrid style enemies of the former habitants. In space there would be pirates/bandits who would try to raid your ship.
+
+#NPCs
+The only NPCs in the game would be surviving habitants of the space station. The player would be able trade and purchase items and tools from the NPCs for currency.
 
 ##World generation and game design
 ###WORLD GENERATION
-World generation has two possibilities:
-
-######*WORLD GEN A:*
-
-*The first two floors are accessible/played like Terraria in a 2D platformer style to make it easier to access building, upgrading and crafting. All floors below are procedurally generated isometric 2D dungeons.*
-
-######*WORLD GEN B:*
-
-*The whole world is a procedurally generated isometric 2D space.*
-
-######*WORLD GEN C:*
-
-*The whole world is done in Limbo's style of parallax scrolling and contrast meets Terraria's 2D platformer style.*
-
-Procedural dungeon generation algorithms are explained thoroughly in the following link as well as a good example written in JavaScript:
+The whole world is a procedurally generated isometric or dimetric 2D space.Procedural dungeon generation algorithms are explained thoroughly in the following link as well as a good example written in JavaScript:
 	http://redd.it/1dlwc4
 ###DESIGN
 NPC's design, building design, and colours are all randomly generated. As the player delves deeper into the planet/space station the player can uncover new wings, which have new resources, tools and NPCs. Resources and tools can be used to upgrade and rebuild the first two floors or craft new items. NPCs can be hostile, neutral or passive. Hostile NPCs will attack on sight; neutral NPCs can be friendly until provoked. Both will drop experience and/or loot on getting killed. Neutral and passive NPC's can be used to barter for new items, resources or quests.  Experience is given for multiple tasks such as exploring, building and fighting. Experience is used to increase skill levels. 
@@ -47,7 +38,7 @@ The soundtrack for the game will be in chiptunes and inspired by FTL, Portal, De
 The art style of the game will be 8/16 bit pixel art. The genre will be space themed but has the potential to differ based on how planets are generated. There is the possibility that stations are textured based on the surrounding resources and colours. All planetary colour schemes will be randomly generated from an algorithm so that there are no clashing colours. As players explore more of the station the textures will start to change to a more degradated style to compliment the fact that the station has been abandoned for some time. If parallax scrolling is included with the game, the assets further to the back will have a gaussian blur to them with a percentage no greater than 40%. The player will be playing in the 2nd or 3rd layer from the front as there will be detailing and other assets placed on the 1st and/or 2nd layer to provide a deeper experience.
 
 ##Programming and tech stuff
-The game will be coded in either a combination of SDL and OpenGL or using the Unity framework/SDK. It will be primarily developed for the PC/Mac demographics with the possibility of Linux support. After the major part of the game is developed a team may start working on mobile or console versions/ports of the game. The ability to interact between console and PC/Mac players would be an amazing feature but would require both the console and PC/Mac players to interact through a third-party service. Users may have the option to save one or more saves on the cloud and this would be required for the planned multiplayer features. The mobile players would have a ‘lite’ version of the game similar to what Minecraft PE and Terraria Mobile are to their desktop counterparts. Native support for controllers (Xbox 360 and SNES USB) will be available as well as the possibility for the Oculus Rift however the usability will be limited as this is a 2D game and isometric 2D landscapes converted to 3D are not that amazing. Controls will be ‘simple’ and similar to those explained in the following link:
+The game will be coded in either a combination of SDL and OpenGL or using the Unity framework/SDK. It will be primarily developed for the PC/Mac demographics with the possibility of Linux support. After the major part of the game is developed a team may start working on mobile or console versions/ports of the game. The ability to interact between console and PC/Mac players would be an amazing feature but would require both the console and PC/Mac players to interact through a third-party service. Users may have the option to save one or more saves on the cloud and this would be required for the planned multiplayer features. The mobile players would have a ‘lite’ version of the game similar to what Minecraft PE and Terraria Mobile are to their desktop counterparts. Native support for controllers (Xbox 360 and PS3) will be available as well as the possibility for the Oculus Rift however the usability will be limited as this is a 2D game and isometric/dimetric 2D landscapes converted to 3D are not that amazing. Controls will be ‘simple’ and similar to those explained in the following link:
 	http://youtu.be/8FpigqfcvlM
 	
 #tl;dr: its pretty cool
